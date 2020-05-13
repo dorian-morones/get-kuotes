@@ -18,8 +18,8 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 export const Quotes = () => {
   const api = "https://api.kanye.rest/";
   const [quotes, loading, fetchUrl] = useFetch(api);
-  
-  const twitterLink = `https://twitter.com/intent/tweet?text=${quotes} - Kanye West`;
+
+  const tweetMe = `https://twitter.com/intent/tweet?text=${quotes} - Kanye West`;
 
   const handleNewQuote = () => {
     fetchUrl(api)
@@ -48,7 +48,7 @@ export const Quotes = () => {
               id="tweet-quote"
               target="_blank"
               rel="noopener noreferrer"
-              href={twitterLink}
+              href={tweetMe}
             >
               <FontAwesomeIcon icon={faTwitter} />
             </QuoteIcon>
