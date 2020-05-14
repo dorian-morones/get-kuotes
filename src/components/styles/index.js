@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import bk from '../../img/bk.jpg';
 
 export const QuoteContainer = styled.div`
 width: 600px;
@@ -25,6 +24,7 @@ export const Col = styled.div`
 
 export const QuoteItem = styled.h1`
   font-size: 20px;
+  font-weight: 600;
 `
 
 export const QuoteIcon = styled.a`
@@ -56,4 +56,23 @@ export const QuoteButton = styled.button`
   border: 0;
   padding: 10px;
   font-weight: bold;
+  background: #f0f0f0;
+`
+
+export const FooterContainer = styled.footer`
+    width: 150px;
+    background: #3B3B3C;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 5px 20px;
+`
+export const Link = styled.a`
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+`
+export const Logo = styled.img`
+  width:20px;
 `

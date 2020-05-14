@@ -45,7 +45,6 @@ export const Quotes = () => {
           <Row theme={{ align: "flex-end" }}>
             <QuoteIcon
               className="twitter"
-              id="tweet-quote"
               target="_blank"
               rel="noopener noreferrer"
               href={tweetMe}
