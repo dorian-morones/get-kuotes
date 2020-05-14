@@ -37,7 +37,7 @@ export const Quotes = () => {
               <QuotePhoto src={profile} />
             </Col>
             <Col>
-              <QuoteAuthor>Keyne West</QuoteAuthor>
+              <QuoteAuthor>Kanye West</QuoteAuthor>
             </Col>
           </Row>
         </Col>
