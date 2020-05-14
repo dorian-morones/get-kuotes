@@ -31,7 +31,7 @@ export const Quotes = () => {
         <QuoteItem>{quotes}</QuoteItem>
       </Row>
       <Row theme={{ margin: "30px" }}>
-        <Col theme={{ width: "50%" }}>
+        <Col theme={{ width: "70%" }}>
           <Row theme={{ align: "flex-start" }}>
             <Col>
               <QuotePhoto src={profile} />
@@ -41,7 +41,7 @@ export const Quotes = () => {
             </Col>
           </Row>
         </Col>
-        <Col theme={{ width: "50%" }}>
+        <Col theme={{ width: "30%" }}>
           <Row theme={{ align: "flex-end" }}>
             <QuoteIcon
               className="twitter"

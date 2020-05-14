@@ -9,8 +9,10 @@ margin-top: 10%;
 -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.19);
 -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.19);
 box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.19);
-/* background-image: url(${bk});
-background-size: cover; */
+
+@media only screen and (max-device-width: 568px) {
+  width:80%;
+}
 `
 export const Row = styled.div`
   margin-bottom: ${(props) => props.theme.margin ? props.theme.margin : '0'};
@@ -35,7 +37,7 @@ export const QuoteIcon = styled.a`
 
 export const QuoteAuthor = styled.p`
   margin: 10px 0;
-  text-align: right;
+  text-align: left;
 `
 
 export const QuotePhoto = styled.img`
